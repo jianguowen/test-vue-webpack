@@ -1,40 +1,27 @@
 <style>
-html {
-  height: 100%;
+* {
+  box-sizing: border-box;
 }
-
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFF;
 }
-
-#app {
-  color: #2c3e50;
-  margin-top: -100px;
-  max-width: 600px;
-  font-family: Source Sans Pro, Helvetica, sans-serif;
-  text-align: center;
-}
-
-#app a {
-  color: #42b983;
-  text-decoration: none;
-}
-
-.logo {
-  width: 100px;
-  height: 100px
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 </style>
 
 <template>
-  <div id="app">
-
-  </div>
+<div>
+  <router-view
+    class="view"
+    keep-alive
+    transition
+    transition-mode="out-in">
+  </router-view>
+</div>
 </template>
-
-<script>
-
-</script>
