@@ -8,7 +8,7 @@
 <script>
 import Vue from 'vue';
 import NavBar from '../components/NavBar';
-import Gallery from '../components/Gallery';
+import Carousel from '../components/Carousel';
 
 export default {
   ready() {
@@ -16,7 +16,7 @@ export default {
   },
   components: {
     NavBar,
-    Gallery,
+    Carousel,
   },
 };
 </script>

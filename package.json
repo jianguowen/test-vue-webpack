@@ -2,7 +2,7 @@
   "name": "test-vue-webpack",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "jianguowen <wen.jian@cardinfolink.com>",
+  "author": "",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
